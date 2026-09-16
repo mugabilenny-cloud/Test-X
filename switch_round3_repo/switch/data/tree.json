@@ -4,150 +4,151 @@
       "id": "node_0",
       "name": "KIU",
       "type": "institution",
-      "children": []
+      "parent_id": null
     },
     {
       "id": "node_1",
       "name": "Health Sciences",
       "type": "faculty",
-      "children": []
+      "parent_id": "node_0"
     },
     {
       "id": "node_2",
       "name": "BMS   0000",
       "type": "program",
-      "children": []
+      "parent_id": "node_1"
     },
     {
       "id": "node_3",
       "name": "Year 3",
       "type": "year",
-      "children": []
+      "parent_id": "node_2"
     },
     {
       "id": "node_4",
       "name": "Semester 1",
       "type": "semester",
-      "children": []
+      "parent_id": "node_3"
     },
     {
       "id": "node_5",
       "name": "Pathophysiology",
       "type": "course",
-      "children": []
+      "parent_id": "node_4"
     },
     {
       "id": "node_6",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_5"
     },
     {
       "id": "node_7",
       "name": "BMS",
       "type": "program",
-      "children": []
+      "parent_id": "node_1"
     },
     {
       "id": "node_8",
       "name": "Year 2",
       "type": "year",
-      "children": []
+      "parent_id": "node_7"
     },
     {
       "id": "node_9",
       "name": "Semester 1",
       "type": "semester",
-      "children": []
+      "parent_id": "node_8"
     },
     {
       "id": "node_10",
       "name": "Pharmacology",
       "type": "course",
-      "children": []
+      "parent_id": "node_9"
     },
     {
       "id": "node_11",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_10"
     },
     {
       "id": "node_12",
       "name": "Physiology",
       "type": "course",
-      "children": []
+      "parent_id": "node_9"
     },
     {
       "id": "node_13",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_12"
     },
     {
       "id": "node_14",
       "name": "Year 3",
       "type": "year",
-      "children": []
+      "parent_id": "node_7"
     },
     {
       "id": "node_15",
       "name": "Semester 1",
       "type": "semester",
-      "children": []
+      "parent_id": "node_14"
     },
     {
       "id": "node_16",
       "name": "Chemopathology",
       "type": "course",
-      "children": []
+      "parent_id": "node_15"
     },
     {
       "id": "node_17",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_16"
     },
     {
       "id": "node_18",
       "name": "Clinical Micro B",
       "type": "course",
-      "children": []
+      "parent_id": "node_15"
     },
     {
       "id": "node_19",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_18"
     },
     {
       "id": "node_20",
       "name": "Hematology",
       "type": "course",
-      "children": []
+      "parent_id": "node_15"
     },
     {
       "id": "node_21",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_20"
     },
     {
       "id": "node_22",
       "name": "Histopathology",
       "type": "course",
-      "children": []
+      "parent_id": "node_15"
     },
     {
       "id": "node_23",
       "name": "Class",
       "type": "class",
-      "children": []
+      "parent_id": "node_22"
     },
     {
       "id": "node_24",
       "name": "Epilepsy 2 (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Epilepsy 2",
         "link_kind": "youtube",
@@ -158,6 +159,7 @@
       "id": "node_25",
       "name": "Epilepsy 2 (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Epilepsy 2",
         "link_kind": "drive_Notes",
@@ -168,6 +170,7 @@
       "id": "node_26",
       "name": "Epilepsy 2 (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Epilepsy 2",
         "link_kind": "drive_questions",
@@ -178,6 +181,7 @@
       "id": "node_27",
       "name": "Meningitis (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Meningitis",
         "link_kind": "youtube",
@@ -188,6 +192,7 @@
       "id": "node_28",
       "name": "Meningitis (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Meningitis",
         "link_kind": "drive_Notes",
@@ -198,6 +203,7 @@
       "id": "node_29",
       "name": "Meningitis (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Meningitis",
         "link_kind": "drive_questions",
@@ -208,6 +214,7 @@
       "id": "node_30",
       "name": "Obstructive Lung Diesease  (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Obstructive Lung Diesease ",
         "link_kind": "youtube",
@@ -218,6 +225,7 @@
       "id": "node_31",
       "name": "Obstructive Lung Diesease  (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Obstructive Lung Diesease ",
         "link_kind": "drive_Notes",
@@ -228,6 +236,7 @@
       "id": "node_32",
       "name": "Obstructive Lung Diesease  (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Obstructive Lung Diesease ",
         "link_kind": "drive_questions",
@@ -238,6 +247,7 @@
       "id": "node_33",
       "name": "Stroke 1 (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Stroke 1",
         "link_kind": "youtube",
@@ -248,6 +258,7 @@
       "id": "node_34",
       "name": "Stroke 2 (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Stroke 2",
         "link_kind": "drive_Notes",
@@ -258,6 +269,7 @@
       "id": "node_35",
       "name": "Stroke 3 (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Stroke 3",
         "link_kind": "drive_questions",
@@ -268,6 +280,7 @@
       "id": "node_36",
       "name": "Reproductive System -Pathophysiology (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Reproductive System -Pathophysiology",
         "link_kind": "youtube",
@@ -278,6 +291,7 @@
       "id": "node_37",
       "name": "Reproductive System -Pathophysiology (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Reproductive System -Pathophysiology",
         "link_kind": "drive_Notes",
@@ -288,6 +302,7 @@
       "id": "node_38",
       "name": "Reproductive System -Pathophysiology (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Reproductive System -Pathophysiology",
         "link_kind": "drive_questions",
@@ -298,6 +313,7 @@
       "id": "node_39",
       "name": "Infertility Jovile (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Infertility Jovile",
         "link_kind": "youtube",
@@ -308,6 +324,7 @@
       "id": "node_40",
       "name": "Infertility Jovile (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Infertility Jovile",
         "link_kind": "drive_Notes",
@@ -318,6 +335,7 @@
       "id": "node_41",
       "name": "Infertility Jovile (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Infertility Jovile",
         "link_kind": "drive_questions",
@@ -328,6 +346,7 @@
       "id": "node_42",
       "name": "Disorders of the Female Genital Tract (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of the Female Genital Tract",
         "link_kind": "youtube",
@@ -338,6 +357,7 @@
       "id": "node_43",
       "name": "Disorders of the Female Genital Tract (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of the Female Genital Tract",
         "link_kind": "drive_Notes",
@@ -348,6 +368,7 @@
       "id": "node_44",
       "name": "Disorders of the Female Genital Tract (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of the Female Genital Tract",
         "link_kind": "drive_questions",
@@ -358,6 +379,7 @@
       "id": "node_45",
       "name": "Disorders of Breast (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of Breast",
         "link_kind": "youtube",
@@ -368,6 +390,7 @@
       "id": "node_46",
       "name": "Disorders of Breast (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of Breast",
         "link_kind": "drive_Notes",
@@ -378,6 +401,7 @@
       "id": "node_47",
       "name": "Disorders of Breast (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of Breast",
         "link_kind": "drive_questions",
@@ -388,6 +412,7 @@
       "id": "node_48",
       "name": "Prostate Gland Jovile (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Prostate Gland Jovile",
         "link_kind": "youtube",
@@ -398,6 +423,7 @@
       "id": "node_49",
       "name": "Prostate Gland Jovile (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Prostate Gland Jovile",
         "link_kind": "drive_Notes",
@@ -408,6 +434,7 @@
       "id": "node_50",
       "name": "Prostate Gland Jovile (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Prostate Gland Jovile",
         "link_kind": "drive_questions",
@@ -418,6 +445,7 @@
       "id": "node_51",
       "name": "Burn (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Burn",
         "link_kind": "youtube",
@@ -428,6 +456,7 @@
       "id": "node_52",
       "name": "Burn (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Burn",
         "link_kind": "drive_Notes",
@@ -438,6 +467,7 @@
       "id": "node_53",
       "name": "Burn (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Burn",
         "link_kind": "drive_questions",
@@ -448,6 +478,7 @@
       "id": "node_54",
       "name": "Cardiovascular Pathophysiology (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiovascular Pathophysiology",
         "link_kind": "youtube",
@@ -458,6 +489,7 @@
       "id": "node_55",
       "name": "Cardiovascular Pathophysiology (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiovascular Pathophysiology",
         "link_kind": "drive_Notes",
@@ -468,6 +500,7 @@
       "id": "node_56",
       "name": "Cardiovascular Pathophysiology (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiovascular Pathophysiology",
         "link_kind": "drive_questions",
@@ -478,6 +511,7 @@
       "id": "node_57",
       "name": "Encephalitis and Other Infections  (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Encephalitis and Other Infections ",
         "link_kind": "youtube",
@@ -488,6 +522,7 @@
       "id": "node_58",
       "name": "Encephalitis and Other Infections  (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Encephalitis and Other Infections ",
         "link_kind": "drive_Notes",
@@ -498,6 +533,7 @@
       "id": "node_59",
       "name": "Encephalitis and Other Infections  (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Encephalitis and Other Infections ",
         "link_kind": "drive_questions",
@@ -508,6 +544,7 @@
       "id": "node_60",
       "name": "Stroke (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Stroke",
         "link_kind": "youtube",
@@ -518,6 +555,7 @@
       "id": "node_61",
       "name": "Stroke (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Stroke",
         "link_kind": "drive_Notes",
@@ -528,6 +566,7 @@
       "id": "node_62",
       "name": "Stroke (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Stroke",
         "link_kind": "drive_questions",
@@ -538,6 +577,7 @@
       "id": "node_63",
       "name": "Pneumonia (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pneumonia",
         "link_kind": "youtube",
@@ -548,6 +588,7 @@
       "id": "node_64",
       "name": "Pneumonia (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pneumonia",
         "link_kind": "drive_Notes",
@@ -558,6 +599,7 @@
       "id": "node_65",
       "name": "Pneumonia (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pneumonia",
         "link_kind": "drive_questions",
@@ -568,6 +610,7 @@
       "id": "node_66",
       "name": "Pulmonary Change Age (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pulmonary Change Age",
         "link_kind": "youtube",
@@ -578,6 +621,7 @@
       "id": "node_67",
       "name": "Pulmonary Change Age (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pulmonary Change Age",
         "link_kind": "drive_Notes",
@@ -588,6 +632,7 @@
       "id": "node_68",
       "name": "Pulmonary Change Age (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pulmonary Change Age",
         "link_kind": "drive_questions",
@@ -598,6 +643,7 @@
       "id": "node_69",
       "name": "OVARIAN AND GESTATIONAL DISORDERS.pptx (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "OVARIAN AND GESTATIONAL DISORDERS.pptx",
         "link_kind": "youtube",
@@ -608,6 +654,7 @@
       "id": "node_70",
       "name": "OVARIAN AND GESTATIONAL DISORDERS.pptx (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "OVARIAN AND GESTATIONAL DISORDERS.pptx",
         "link_kind": "drive_Notes",
@@ -618,6 +665,7 @@
       "id": "node_71",
       "name": "OVARIAN AND GESTATIONAL DISORDERS.pptx (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "OVARIAN AND GESTATIONAL DISORDERS.pptx",
         "link_kind": "drive_questions",
@@ -628,6 +676,7 @@
       "id": "node_72",
       "name": "Blood vessel disorders (hypertension, aneurysms,,vasculitis Nov24.pptx (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Blood vessel disorders (hypertension, aneurysms,,vasculitis Nov24.pptx",
         "link_kind": "youtube",
@@ -638,6 +687,7 @@
       "id": "node_73",
       "name": "Blood vessel disorders (hypertension, aneurysms,,vasculitis Nov25.pptx (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Blood vessel disorders (hypertension, aneurysms,,vasculitis Nov25.pptx",
         "link_kind": "drive_Notes",
@@ -648,6 +698,7 @@
       "id": "node_74",
       "name": "Blood vessel disorders (hypertension, aneurysms,,vasculitis Nov26.pptx (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Blood vessel disorders (hypertension, aneurysms,,vasculitis Nov26.pptx",
         "link_kind": "drive_questions",
@@ -658,6 +709,7 @@
       "id": "node_75",
       "name": "ESE--Nutritional deficiency disorders & Disorders of metabolism (Diabetes mellitus).pptx (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "ESE--Nutritional deficiency disorders & Disorders of metabolism (Diabetes mellitus).pptx",
         "link_kind": "youtube",
@@ -668,6 +720,7 @@
       "id": "node_76",
       "name": "ESE--Nutritional deficiency disorders & Disorders of metabolism (Diabetes mellitus).pptx (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "ESE--Nutritional deficiency disorders & Disorders of metabolism (Diabetes mellitus).pptx",
         "link_kind": "drive_Notes",
@@ -678,6 +731,7 @@
       "id": "node_77",
       "name": "ESE--Nutritional deficiency disorders & Disorders of metabolism (Diabetes mellitus).pptx (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "ESE--Nutritional deficiency disorders & Disorders of metabolism (Diabetes mellitus).pptx",
         "link_kind": "drive_questions",
@@ -688,6 +742,7 @@
       "id": "node_78",
       "name": "GIT PATHOLOGY.pptx (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GIT PATHOLOGY.pptx",
         "link_kind": "youtube",
@@ -698,6 +753,7 @@
       "id": "node_79",
       "name": "GIT PATHOLOGY.pptx (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GIT PATHOLOGY.pptx",
         "link_kind": "drive_Notes",
@@ -708,6 +764,7 @@
       "id": "node_80",
       "name": "GIT PATHOLOGY.pptx (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GIT PATHOLOGY.pptx",
         "link_kind": "drive_questions",
@@ -718,6 +775,7 @@
       "id": "node_81",
       "name": "Liver and Gall bladder disorders(BMS 3.0).pptx (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Liver and Gall bladder disorders(BMS 3.0).pptx",
         "link_kind": "youtube",
@@ -728,6 +786,7 @@
       "id": "node_82",
       "name": "Liver and Gall bladder disorders(BMS 3.1).pptx (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Liver and Gall bladder disorders(BMS 3.1).pptx",
         "link_kind": "drive_Notes",
@@ -738,6 +797,7 @@
       "id": "node_83",
       "name": "Liver and Gall bladder disorders(BMS 3.2).pptx (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Liver and Gall bladder disorders(BMS 3.2).pptx",
         "link_kind": "drive_questions",
@@ -748,6 +808,7 @@
       "id": "node_84",
       "name": "Lung disorders october 25 (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung disorders october 25",
         "link_kind": "youtube",
@@ -758,6 +819,7 @@
       "id": "node_85",
       "name": "Lung disorders october 26 (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung disorders october 26",
         "link_kind": "drive_Notes",
@@ -768,6 +830,7 @@
       "id": "node_86",
       "name": "Lung disorders october 27 (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung disorders october 27",
         "link_kind": "drive_questions",
@@ -778,6 +841,7 @@
       "id": "node_87",
       "name": "Neoplasia overview (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Neoplasia overview",
         "link_kind": "youtube",
@@ -788,6 +852,7 @@
       "id": "node_88",
       "name": "Neoplasia overview (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Neoplasia overview",
         "link_kind": "drive_Notes",
@@ -798,6 +863,7 @@
       "id": "node_89",
       "name": "Neoplasia overview (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Neoplasia overview",
         "link_kind": "drive_questions",
@@ -808,6 +874,7 @@
       "id": "node_90",
       "name": "Systemic Lups Erythematous (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Systemic Lups Erythematous",
         "link_kind": "youtube",
@@ -818,6 +885,7 @@
       "id": "node_91",
       "name": "Systemic Lups Erythematous (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Systemic Lups Erythematous",
         "link_kind": "drive_Notes",
@@ -828,6 +896,7 @@
       "id": "node_92",
       "name": "Systemic Lups Erythematous (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Systemic Lups Erythematous",
         "link_kind": "drive_questions",
@@ -838,6 +907,7 @@
       "id": "node_93",
       "name": "The Male Genital Tract (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Male Genital Tract",
         "link_kind": "youtube",
@@ -848,6 +918,7 @@
       "id": "node_94",
       "name": "The Male Genital Tract (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Male Genital Tract",
         "link_kind": "drive_Notes",
@@ -858,6 +929,7 @@
       "id": "node_95",
       "name": "The Male Genital Tract (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Male Genital Tract",
         "link_kind": "drive_questions",
@@ -868,6 +940,7 @@
       "id": "node_96",
       "name": "Valvular heart diseases, cardiomyopathy and pericardial effusion oct 25 (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Valvular heart diseases, cardiomyopathy and pericardial effusion oct 25",
         "link_kind": "youtube",
@@ -878,6 +951,7 @@
       "id": "node_97",
       "name": "Valvular heart diseases, cardiomyopathy and pericardial effusion oct 26 (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Valvular heart diseases, cardiomyopathy and pericardial effusion oct 26",
         "link_kind": "drive_Notes",
@@ -888,6 +962,7 @@
       "id": "node_98",
       "name": "Valvular heart diseases, cardiomyopathy and pericardial effusion oct 27 (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Valvular heart diseases, cardiomyopathy and pericardial effusion oct 27",
         "link_kind": "drive_questions",
@@ -898,6 +973,7 @@
       "id": "node_99",
       "name": "Introduction to Pathology (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Introduction to Pathology",
         "link_kind": "youtube",
@@ -908,6 +984,7 @@
       "id": "node_100",
       "name": "Introduction to Pathology (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Introduction to Pathology",
         "link_kind": "drive_Notes",
@@ -918,6 +995,7 @@
       "id": "node_101",
       "name": "Introduction to Pathology (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Introduction to Pathology",
         "link_kind": "drive_questions",
@@ -928,6 +1006,7 @@
       "id": "node_102",
       "name": "Atherosclerosis (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Atherosclerosis",
         "link_kind": "youtube",
@@ -938,6 +1017,7 @@
       "id": "node_103",
       "name": "Atherosclerosis (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Atherosclerosis",
         "link_kind": "drive_Notes",
@@ -948,6 +1028,7 @@
       "id": "node_104",
       "name": "Atherosclerosis (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Atherosclerosis",
         "link_kind": "drive_questions",
@@ -958,6 +1039,7 @@
       "id": "node_105",
       "name": "Chronic Inflammation (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Chronic Inflammation",
         "link_kind": "youtube",
@@ -968,6 +1050,7 @@
       "id": "node_106",
       "name": "Chronic Inflammation (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Chronic Inflammation",
         "link_kind": "drive_Notes",
@@ -978,6 +1061,7 @@
       "id": "node_107",
       "name": "Chronic Inflammation (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Chronic Inflammation",
         "link_kind": "drive_questions",
@@ -988,6 +1072,7 @@
       "id": "node_108",
       "name": "Acute Inflammation (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Acute Inflammation",
         "link_kind": "youtube",
@@ -998,6 +1083,7 @@
       "id": "node_109",
       "name": "Acute Inflammation (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Acute Inflammation",
         "link_kind": "drive_Notes",
@@ -1008,6 +1094,7 @@
       "id": "node_110",
       "name": "Acute Inflammation (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Acute Inflammation",
         "link_kind": "drive_questions",
@@ -1018,6 +1105,7 @@
       "id": "node_111",
       "name": "Cell Adaptation, Cell Injury, Cell Responses, Cell Death (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cell Adaptation, Cell Injury, Cell Responses, Cell Death",
         "link_kind": "youtube",
@@ -1028,6 +1116,7 @@
       "id": "node_112",
       "name": "Cell Adaptation, Cell Injury, Cell Responses, Cell Death (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cell Adaptation, Cell Injury, Cell Responses, Cell Death",
         "link_kind": "drive_Notes",
@@ -1038,6 +1127,7 @@
       "id": "node_113",
       "name": "Cell Adaptation, Cell Injury, Cell Responses, Cell Death (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cell Adaptation, Cell Injury, Cell Responses, Cell Death",
         "link_kind": "drive_questions",
@@ -1048,6 +1138,7 @@
       "id": "node_114",
       "name": "Cell Injury (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cell Injury",
         "link_kind": "youtube",
@@ -1058,6 +1149,7 @@
       "id": "node_115",
       "name": "Cell Injury (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cell Injury",
         "link_kind": "drive_Notes",
@@ -1068,6 +1160,7 @@
       "id": "node_116",
       "name": "Cell Injury (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cell Injury",
         "link_kind": "drive_questions",
@@ -1078,6 +1171,7 @@
       "id": "node_117",
       "name": "Chronic Granulomatous Infections (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Chronic Granulomatous Infections",
         "link_kind": "youtube",
@@ -1088,6 +1182,7 @@
       "id": "node_118",
       "name": "Chronic Granulomatous Infections (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Chronic Granulomatous Infections",
         "link_kind": "drive_Notes",
@@ -1098,6 +1193,7 @@
       "id": "node_119",
       "name": "Chronic Granulomatous Infections (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Chronic Granulomatous Infections",
         "link_kind": "drive_questions",
@@ -1108,6 +1204,7 @@
       "id": "node_120",
       "name": "Disorders of circulation (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of circulation",
         "link_kind": "youtube",
@@ -1118,6 +1215,7 @@
       "id": "node_121",
       "name": "Disorders of circulation (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of circulation",
         "link_kind": "drive_Notes",
@@ -1128,6 +1226,7 @@
       "id": "node_122",
       "name": "Disorders of circulation (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of circulation",
         "link_kind": "drive_questions",
@@ -1138,6 +1237,7 @@
       "id": "node_123",
       "name": "Lung disorders (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung disorders",
         "link_kind": "youtube",
@@ -1148,6 +1248,7 @@
       "id": "node_124",
       "name": "Lung disorders (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung disorders",
         "link_kind": "drive_Notes",
@@ -1158,6 +1259,7 @@
       "id": "node_125",
       "name": "Lung disorders (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung disorders",
         "link_kind": "drive_questions",
@@ -1168,6 +1270,7 @@
       "id": "node_126",
       "name": "Tissue Repair and Wound Healling (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Tissue Repair and Wound Healling",
         "link_kind": "youtube",
@@ -1178,6 +1281,7 @@
       "id": "node_127",
       "name": "Tissue Repair and Wound Healling (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Tissue Repair and Wound Healling",
         "link_kind": "drive_Notes",
@@ -1188,6 +1292,7 @@
       "id": "node_128",
       "name": "Tissue Repair and Wound Healling (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Tissue Repair and Wound Healling",
         "link_kind": "drive_questions",
@@ -1198,6 +1303,7 @@
       "id": "node_129",
       "name": "Agua Y Electrolios (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Agua Y Electrolios",
         "link_kind": "youtube",
@@ -1208,6 +1314,7 @@
       "id": "node_130",
       "name": "Agua Y Electrolios (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Agua Y Electrolios",
         "link_kind": "drive_Notes",
@@ -1218,6 +1325,7 @@
       "id": "node_131",
       "name": "Agua Y Electrolios (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Agua Y Electrolios",
         "link_kind": "drive_questions",
@@ -1228,6 +1336,7 @@
       "id": "node_132",
       "name": "Electrolytes macro and micro  (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Electrolytes macro and micro ",
         "link_kind": "youtube",
@@ -1238,6 +1347,7 @@
       "id": "node_133",
       "name": "Electrolytes macro and micro  (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Electrolytes macro and micro ",
         "link_kind": "drive_Notes",
@@ -1248,6 +1358,7 @@
       "id": "node_134",
       "name": "Electrolytes macro and micro  (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Electrolytes macro and micro ",
         "link_kind": "drive_questions",
@@ -1258,6 +1369,7 @@
       "id": "node_135",
       "name": "Inborn Errors of Metabolism (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Inborn Errors of Metabolism",
         "link_kind": "youtube",
@@ -1268,6 +1380,7 @@
       "id": "node_136",
       "name": "Inborn Errors of Metabolism (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Inborn Errors of Metabolism",
         "link_kind": "drive_Notes",
@@ -1278,6 +1391,7 @@
       "id": "node_137",
       "name": "Inborn Errors of Metabolism (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Inborn Errors of Metabolism",
         "link_kind": "drive_questions",
@@ -1288,6 +1402,7 @@
       "id": "node_138",
       "name": "Cardiac Makers (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiac Makers",
         "link_kind": "youtube",
@@ -1298,6 +1413,7 @@
       "id": "node_139",
       "name": "Cardiac Makers (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiac Makers",
         "link_kind": "drive_Notes",
@@ -1308,6 +1424,7 @@
       "id": "node_140",
       "name": "Cardiac Makers (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiac Makers",
         "link_kind": "drive_questions",
@@ -1318,6 +1435,7 @@
       "id": "node_141",
       "name": "Introduction to Pathology (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Introduction to Pathology",
         "link_kind": "youtube",
@@ -1328,6 +1446,7 @@
       "id": "node_142",
       "name": "Introduction to Pathology (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Introduction to Pathology",
         "link_kind": "drive_Notes",
@@ -1338,6 +1457,7 @@
       "id": "node_143",
       "name": "Introduction to Pathology (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Introduction to Pathology",
         "link_kind": "drive_questions",
@@ -1348,6 +1468,7 @@
       "id": "node_144",
       "name": "Enzymes Clase (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Enzymes Clase",
         "link_kind": "youtube",
@@ -1358,6 +1479,7 @@
       "id": "node_145",
       "name": "Enzymes Clase (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Enzymes Clase",
         "link_kind": "drive_Notes",
@@ -1368,6 +1490,7 @@
       "id": "node_146",
       "name": "Enzymes Clase (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Enzymes Clase",
         "link_kind": "drive_questions",
@@ -1378,6 +1501,7 @@
       "id": "node_147",
       "name": "Acid -base (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Acid -base",
         "link_kind": "youtube",
@@ -1388,6 +1512,7 @@
       "id": "node_148",
       "name": "Acid -base (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Acid -base",
         "link_kind": "drive_Notes",
@@ -1398,6 +1523,7 @@
       "id": "node_149",
       "name": "Acid -base (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Acid -base",
         "link_kind": "drive_questions",
@@ -1408,6 +1534,7 @@
       "id": "node_150",
       "name": "Normal Kidney's Function (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Normal Kidney's Function",
         "link_kind": "youtube",
@@ -1418,6 +1545,7 @@
       "id": "node_151",
       "name": "Normal Kidney's Function (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Normal Kidney's Function",
         "link_kind": "drive_Notes",
@@ -1428,6 +1556,7 @@
       "id": "node_152",
       "name": "Normal Kidney's Function (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Normal Kidney's Function",
         "link_kind": "drive_questions",
@@ -1438,6 +1567,7 @@
       "id": "node_153",
       "name": "Proteins,TotalProtein and Albumin (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Proteins,TotalProtein and Albumin",
         "link_kind": "youtube",
@@ -1448,6 +1578,7 @@
       "id": "node_154",
       "name": "Proteins,TotalProtein and Albumin (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Proteins,TotalProtein and Albumin",
         "link_kind": "drive_Notes",
@@ -1458,6 +1589,7 @@
       "id": "node_155",
       "name": "Proteins,TotalProtein and Albumin (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Proteins,TotalProtein and Albumin",
         "link_kind": "drive_questions",
@@ -1468,6 +1600,7 @@
       "id": "node_156",
       "name": "Kidney's Integrity (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Kidney's Integrity",
         "link_kind": "youtube",
@@ -1478,6 +1611,7 @@
       "id": "node_157",
       "name": "Kidney's Integrity (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Kidney's Integrity",
         "link_kind": "drive_Notes",
@@ -1488,6 +1622,7 @@
       "id": "node_158",
       "name": "Kidney's Integrity (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Kidney's Integrity",
         "link_kind": "drive_questions",
@@ -1498,6 +1633,7 @@
       "id": "node_159",
       "name": "GTT Tayrab (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GTT Tayrab",
         "link_kind": "youtube",
@@ -1508,6 +1644,7 @@
       "id": "node_160",
       "name": "GTT Tayrab (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GTT Tayrab",
         "link_kind": "drive_Notes",
@@ -1518,6 +1655,7 @@
       "id": "node_161",
       "name": "GTT Tayrab (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GTT Tayrab",
         "link_kind": "drive_questions",
@@ -1528,6 +1666,7 @@
       "id": "node_162",
       "name": "Diabetes Mellitus (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Diabetes Mellitus",
         "link_kind": "youtube",
@@ -1538,6 +1677,7 @@
       "id": "node_163",
       "name": "Diabetes Mellitus (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Diabetes Mellitus",
         "link_kind": "drive_Notes",
@@ -1548,6 +1688,7 @@
       "id": "node_164",
       "name": "Diabetes Mellitus (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Diabetes Mellitus",
         "link_kind": "drive_questions",
@@ -1558,6 +1699,7 @@
       "id": "node_165",
       "name": "Anterior Pituitary Hormones (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Anterior Pituitary Hormones",
         "link_kind": "youtube",
@@ -1568,6 +1710,7 @@
       "id": "node_166",
       "name": "Anterior Pituitary Hormones (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Anterior Pituitary Hormones",
         "link_kind": "drive_Notes",
@@ -1578,6 +1721,7 @@
       "id": "node_167",
       "name": "Anterior Pituitary Hormones (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Anterior Pituitary Hormones",
         "link_kind": "drive_questions",
@@ -1588,6 +1732,7 @@
       "id": "node_168",
       "name": "Thyroid Hormones (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Thyroid Hormones",
         "link_kind": "youtube",
@@ -1598,6 +1743,7 @@
       "id": "node_169",
       "name": "Thyroid Hormones (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Thyroid Hormones",
         "link_kind": "drive_Notes",
@@ -1608,6 +1754,7 @@
       "id": "node_170",
       "name": "Thyroid Hormones (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Thyroid Hormones",
         "link_kind": "drive_questions",
@@ -1618,6 +1765,7 @@
       "id": "node_171",
       "name": "Other Endocrine Organs (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Other Endocrine Organs",
         "link_kind": "youtube",
@@ -1628,6 +1776,7 @@
       "id": "node_172",
       "name": "Other Endocrine Organs (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Other Endocrine Organs",
         "link_kind": "drive_Notes",
@@ -1638,6 +1787,7 @@
       "id": "node_173",
       "name": "Other Endocrine Organs (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Other Endocrine Organs",
         "link_kind": "drive_questions",
@@ -1648,6 +1798,7 @@
       "id": "node_174",
       "name": "Adrenal Modified (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Adrenal Modified",
         "link_kind": "youtube",
@@ -1658,6 +1809,7 @@
       "id": "node_175",
       "name": "Adrenal Modified (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Adrenal Modified",
         "link_kind": "drive_Notes",
@@ -1668,6 +1820,7 @@
       "id": "node_176",
       "name": "Adrenal Modified (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Adrenal Modified",
         "link_kind": "drive_questions",
@@ -1678,6 +1831,7 @@
       "id": "node_177",
       "name": "Diabetes Mellitus control (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Diabetes Mellitus control",
         "link_kind": "youtube",
@@ -1688,6 +1842,7 @@
       "id": "node_178",
       "name": "Diabetes Mellitus control (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Diabetes Mellitus control",
         "link_kind": "drive_Notes",
@@ -1698,6 +1853,7 @@
       "id": "node_179",
       "name": "Diabetes Mellitus control (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Diabetes Mellitus control",
         "link_kind": "drive_questions",
@@ -1708,6 +1864,7 @@
       "id": "node_180",
       "name": "Hormones and Endocrine (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hormones and Endocrine",
         "link_kind": "youtube",
@@ -1718,6 +1875,7 @@
       "id": "node_181",
       "name": "Hormones and Endocrine (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hormones and Endocrine",
         "link_kind": "drive_Notes",
@@ -1728,6 +1886,7 @@
       "id": "node_182",
       "name": "Hormones and Endocrine (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hormones and Endocrine",
         "link_kind": "drive_questions",
@@ -1738,6 +1897,7 @@
       "id": "node_183",
       "name": "Liver Function Tests (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Liver Function Tests",
         "link_kind": "youtube",
@@ -1748,6 +1908,7 @@
       "id": "node_184",
       "name": "Liver Function Tests (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Liver Function Tests",
         "link_kind": "drive_Notes",
@@ -1758,6 +1919,7 @@
       "id": "node_185",
       "name": "Liver Function Tests (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Liver Function Tests",
         "link_kind": "drive_questions",
@@ -1768,6 +1930,7 @@
       "id": "node_186",
       "name": "Renal Seminary (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Renal Seminary",
         "link_kind": "youtube",
@@ -1778,6 +1941,7 @@
       "id": "node_187",
       "name": "Renal Seminary (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Renal Seminary",
         "link_kind": "drive_Notes",
@@ -1788,6 +1952,7 @@
       "id": "node_188",
       "name": "Renal Seminary (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Renal Seminary",
         "link_kind": "drive_questions",
@@ -1798,6 +1963,7 @@
       "id": "node_189",
       "name": "Protein Seminary (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Protein Seminary",
         "link_kind": "youtube",
@@ -1808,6 +1974,7 @@
       "id": "node_190",
       "name": "Protein Seminary (drive_Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Protein Seminary",
         "link_kind": "drive_Notes",
@@ -1818,6 +1985,7 @@
       "id": "node_191",
       "name": "Protein Seminary (drive_questions)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Protein Seminary",
         "link_kind": "drive_questions",
@@ -1828,6 +1996,7 @@
       "id": "node_192",
       "name": "All hematology Notes (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "All hematology Notes",
         "link_kind": "drive-Notes",
@@ -1838,6 +2007,7 @@
       "id": "node_193",
       "name": "iron overload (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "iron overload",
         "link_kind": "drive-Notes",
@@ -1848,6 +2018,7 @@
       "id": "node_194",
       "name": "The Bethesda Handbook of clinical Hematology (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Bethesda Handbook of clinical Hematology",
         "link_kind": "drive-Notes",
@@ -1858,6 +2029,7 @@
       "id": "node_195",
       "name": "Sample INR (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Sample INR",
         "link_kind": "drive-Notes",
@@ -1868,6 +2040,7 @@
       "id": "node_196",
       "name": "Hematology and blood Transfusion (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hematology and blood Transfusion",
         "link_kind": "drive-Notes",
@@ -1878,6 +2051,7 @@
       "id": "node_197",
       "name": "Hematology course outline (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hematology course outline",
         "link_kind": "drive-Notes",
@@ -1888,6 +2062,7 @@
       "id": "node_198",
       "name": "Harrison Hematology and Oncology (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Harrison Hematology and Oncology",
         "link_kind": "drive-Notes",
@@ -1898,6 +2073,7 @@
       "id": "node_199",
       "name": "Hemolytic Anemias (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hemolytic Anemias",
         "link_kind": "drive-Notes",
@@ -1908,6 +2084,7 @@
       "id": "node_200",
       "name": "Clinical Hematology Atlas 6th Edition (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Clinical Hematology Atlas 6th Edition",
         "link_kind": "drive-Notes",
@@ -1918,6 +2095,7 @@
       "id": "node_201",
       "name": "216 ANTICOUAGULANT STAINS (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "216 ANTICOUAGULANT STAINS",
         "link_kind": "drive-Notes",
@@ -1928,6 +2106,7 @@
       "id": "node_202",
       "name": "215 bone marrow transplant (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "215 bone marrow transplant",
         "link_kind": "drive-Notes",
@@ -1938,6 +2117,7 @@
       "id": "node_203",
       "name": "MNPS edited (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "MNPS edited",
         "link_kind": "drive-Notes",
@@ -1948,6 +2128,7 @@
       "id": "node_204",
       "name": "Multiple Myeloma (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Multiple Myeloma",
         "link_kind": "drive-Notes",
@@ -1958,6 +2139,7 @@
       "id": "node_205",
       "name": "Megaloblastic Anemia (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Megaloblastic Anemia",
         "link_kind": "drive-Notes",
@@ -1968,6 +2150,7 @@
       "id": "node_206",
       "name": "NHL-1 (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "NHL-1",
         "link_kind": "drive-Notes",
@@ -1978,6 +2161,7 @@
       "id": "node_207",
       "name": "Sideroblastic Anemia (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Sideroblastic Anemia",
         "link_kind": "drive-Notes",
@@ -1988,6 +2172,7 @@
       "id": "node_208",
       "name": "Iron Metabolism (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Iron Metabolism",
         "link_kind": "drive-Notes",
@@ -1998,6 +2183,7 @@
       "id": "node_209",
       "name": "Iron metabolism (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Iron metabolism",
         "link_kind": "drive-Notes",
@@ -2008,6 +2194,7 @@
       "id": "node_210",
       "name": "Leukaemia (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Leukaemia",
         "link_kind": "drive-Notes",
@@ -2018,6 +2205,7 @@
       "id": "node_211",
       "name": "Normal Hemostasis (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Normal Hemostasis",
         "link_kind": "drive-Notes",
@@ -2028,6 +2216,7 @@
       "id": "node_212",
       "name": "Disorders of White Blood Cells (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Disorders of White Blood Cells",
         "link_kind": "drive-Notes",
@@ -2038,6 +2227,7 @@
       "id": "node_213",
       "name": "Thrombosis and Thrombophilia (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Thrombosis and Thrombophilia",
         "link_kind": "drive-Notes",
@@ -2048,6 +2238,7 @@
       "id": "node_214",
       "name": "Normal Blood Ranges and RBCs indices (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Normal Blood Ranges and RBCs indices",
         "link_kind": "drive-Notes",
@@ -2058,6 +2249,7 @@
       "id": "node_215",
       "name": "Viral Haemoragic Fever (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Viral Haemoragic Fever",
         "link_kind": "drive-Notes",
@@ -2068,6 +2260,7 @@
       "id": "node_216",
       "name": "Vaccines (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Vaccines",
         "link_kind": "drive-Notes",
@@ -2078,6 +2271,7 @@
       "id": "node_217",
       "name": "Rubella virus, Corona Virus (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Rubella virus, Corona Virus",
         "link_kind": "drive-Notes",
@@ -2088,6 +2282,7 @@
       "id": "node_218",
       "name": "Pox and Herpes Viruses (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pox and Herpes Viruses",
         "link_kind": "drive-Notes",
@@ -2098,6 +2293,7 @@
       "id": "node_219",
       "name": "Paramyxoviruses (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Paramyxoviruses",
         "link_kind": "drive-Notes",
@@ -2108,6 +2304,7 @@
       "id": "node_220",
       "name": "Negative SsRNA (drive-Notes)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Negative SsRNA",
         "link_kind": "drive-Notes",
@@ -2118,6 +2315,7 @@
       "id": "node_221",
       "name": "Herpes viruses (resource)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Herpes viruses",
         "link_kind": "resource",
@@ -2128,6 +2326,7 @@
       "id": "node_222",
       "name": "Urine Formation (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Urine Formation",
         "link_kind": "youtube",
@@ -2138,6 +2337,7 @@
       "id": "node_223",
       "name": "Types- Ling -Disease - Ohio State University (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Types- Ling -Disease - Ohio State University",
         "link_kind": "youtube",
@@ -2148,6 +2348,7 @@
       "id": "node_224",
       "name": "Thyroid And the Parathyroid Glands (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Thyroid And the Parathyroid Glands",
         "link_kind": "youtube",
@@ -2158,6 +2359,7 @@
       "id": "node_225",
       "name": "The Pirtuitary and the Hypothalamus (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Pirtuitary and the Hypothalamus",
         "link_kind": "youtube",
@@ -2168,6 +2370,7 @@
       "id": "node_226",
       "name": "The Adrenal Medulla (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Adrenal Medulla",
         "link_kind": "youtube",
@@ -2178,6 +2381,7 @@
       "id": "node_227",
       "name": "The Anatomical structure of the Respiratory System (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "The Anatomical structure of the Respiratory System",
         "link_kind": "youtube",
@@ -2188,6 +2392,7 @@
       "id": "node_228",
       "name": "Sex Hormones (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Sex Hormones",
         "link_kind": "youtube",
@@ -2198,6 +2403,7 @@
       "id": "node_229",
       "name": "Pulmonary Ventilation (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pulmonary Ventilation",
         "link_kind": "youtube",
@@ -2208,6 +2414,7 @@
       "id": "node_230",
       "name": "Physiology of the Pancreas (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Physiology of the Pancreas",
         "link_kind": "youtube",
@@ -2218,6 +2425,7 @@
       "id": "node_231",
       "name": "Micturition (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Micturition",
         "link_kind": "youtube",
@@ -2228,6 +2436,7 @@
       "id": "node_232",
       "name": "Mechanics Of Respiration (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Mechanics Of Respiration",
         "link_kind": "youtube",
@@ -2238,6 +2447,7 @@
       "id": "node_233",
       "name": "Lung Volumes (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Lung Volumes",
         "link_kind": "youtube",
@@ -2248,6 +2458,7 @@
       "id": "node_234",
       "name": "Kidney Function (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Kidney Function",
         "link_kind": "youtube",
@@ -2258,6 +2469,7 @@
       "id": "node_235",
       "name": "JuxtaMeduallry Apparatus (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "JuxtaMeduallry Apparatus",
         "link_kind": "youtube",
@@ -2268,6 +2480,7 @@
       "id": "node_236",
       "name": "Hypertension and Shock (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hypertension and Shock",
         "link_kind": "youtube",
@@ -2278,6 +2491,7 @@
       "id": "node_237",
       "name": "Hormones from other  organs and local Hormones (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Hormones from other  organs and local Hormones",
         "link_kind": "youtube",
@@ -2288,6 +2502,7 @@
       "id": "node_238",
       "name": "Git Introduction (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Git Introduction",
         "link_kind": "youtube",
@@ -2298,6 +2513,7 @@
       "id": "node_239",
       "name": "GAs Transport (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "GAs Transport",
         "link_kind": "youtube",
@@ -2308,6 +2524,7 @@
       "id": "node_240",
       "name": "Gas Exchange in the lungs (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Gas Exchange in the lungs",
         "link_kind": "youtube",
@@ -2318,6 +2535,7 @@
       "id": "node_241",
       "name": "Endocrinology (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Endocrinology",
         "link_kind": "youtube",
@@ -2328,6 +2546,7 @@
       "id": "node_242",
       "name": "ElectroCardiogram (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "ElectroCardiogram",
         "link_kind": "youtube",
@@ -2338,6 +2557,7 @@
       "id": "node_243",
       "name": "CVS (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "CVS",
         "link_kind": "youtube",
@@ -2348,6 +2568,7 @@
       "id": "node_244",
       "name": "CVS2 (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "CVS2",
         "link_kind": "youtube",
@@ -2358,6 +2579,7 @@
       "id": "node_245",
       "name": "Control Of Respiration (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Control Of Respiration",
         "link_kind": "youtube",
@@ -2368,6 +2590,7 @@
       "id": "node_246",
       "name": "Concentration of Urine (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Concentration of Urine",
         "link_kind": "youtube",
@@ -2378,6 +2601,7 @@
       "id": "node_247",
       "name": "Cardiac Action Potentional (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cardiac Action Potentional",
         "link_kind": "youtube",
@@ -2388,6 +2612,7 @@
       "id": "node_248",
       "name": "BP and Regulation (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "BP and Regulation",
         "link_kind": "youtube",
@@ -2398,6 +2623,7 @@
       "id": "node_249",
       "name": "Adrenal Glands (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Adrenal Glands",
         "link_kind": "youtube",
@@ -2408,6 +2634,7 @@
       "id": "node_250",
       "name": "Vasoactive Peptides (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Vasoactive Peptides",
         "link_kind": "youtube",
@@ -2418,6 +2645,7 @@
       "id": "node_251",
       "name": "Serotonin, Agnoist... (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Serotonin, Agnoist...",
         "link_kind": "youtube",
@@ -2428,6 +2656,7 @@
       "id": "node_252",
       "name": "Routes of Drug Administration (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Routes of Drug Administration",
         "link_kind": "youtube",
@@ -2438,6 +2667,7 @@
       "id": "node_253",
       "name": "Pk Absorption (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pk Absorption",
         "link_kind": "youtube",
@@ -2448,6 +2678,7 @@
       "id": "node_254",
       "name": "Pharmacology(snapshots) (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pharmacology(snapshots)",
         "link_kind": "youtube",
@@ -2458,6 +2689,7 @@
       "id": "node_255",
       "name": "Pharmacodynamics (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pharmacodynamics",
         "link_kind": "youtube",
@@ -2468,6 +2700,7 @@
       "id": "node_256",
       "name": "Pharmaco -D Martins (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Pharmaco -D Martins",
         "link_kind": "youtube",
@@ -2478,6 +2711,7 @@
       "id": "node_257",
       "name": "Opoid analgesics by Chans (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Opoid analgesics by Chans",
         "link_kind": "youtube",
@@ -2488,6 +2722,7 @@
       "id": "node_258",
       "name": "Ergot Alkaloids (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Ergot Alkaloids",
         "link_kind": "youtube",
@@ -2498,6 +2733,7 @@
       "id": "node_259",
       "name": "Drug Discovery And Development (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Drug Discovery And Development",
         "link_kind": "youtube",
@@ -2508,6 +2744,7 @@
       "id": "node_260",
       "name": "Non Steroidal Antiinflammatory Drus (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Non Steroidal Antiinflammatory Drus",
         "link_kind": "youtube",
@@ -2518,6 +2755,7 @@
       "id": "node_261",
       "name": "Cholinergic receptors (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cholinergic receptors",
         "link_kind": "youtube",
@@ -2528,6 +2766,7 @@
       "id": "node_262",
       "name": "Cholinergic Drugs (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Cholinergic Drugs",
         "link_kind": "youtube",
@@ -2538,6 +2777,7 @@
       "id": "node_263",
       "name": "BP404t (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "BP404t",
         "link_kind": "youtube",
@@ -2548,6 +2788,7 @@
       "id": "node_264",
       "name": "Autacoids Pharmacology (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "Autacoids Pharmacology",
         "link_kind": "youtube",
@@ -2558,6 +2799,7 @@
       "id": "node_265",
       "name": "ANs Intro (youtube)",
       "type": "resource",
+      "parent_id": null,
       "metadata": {
         "class_title": "ANs Intro",
         "link_kind": "youtube",
@@ -2567,116 +2809,139 @@
   ],
   "links": [
     {
+      "id": "link_0",
       "source": "node_0",
       "target": "node_1",
       "type": "contains"
     },
     {
+      "id": "link_1",
       "source": "node_1",
       "target": "node_2",
       "type": "contains"
     },
     {
+      "id": "link_2",
       "source": "node_2",
       "target": "node_3",
       "type": "contains"
     },
     {
+      "id": "link_3",
       "source": "node_3",
       "target": "node_4",
       "type": "contains"
     },
     {
+      "id": "link_4",
       "source": "node_4",
       "target": "node_5",
       "type": "contains"
     },
     {
+      "id": "link_5",
       "source": "node_5",
       "target": "node_6",
       "type": "contains"
     },
     {
+      "id": "link_6",
       "source": "node_1",
       "target": "node_7",
       "type": "contains"
     },
     {
+      "id": "link_7",
       "source": "node_7",
       "target": "node_8",
       "type": "contains"
     },
     {
+      "id": "link_8",
       "source": "node_8",
       "target": "node_9",
       "type": "contains"
     },
     {
+      "id": "link_9",
       "source": "node_9",
       "target": "node_10",
       "type": "contains"
     },
     {
+      "id": "link_10",
       "source": "node_10",
       "target": "node_11",
       "type": "contains"
     },
     {
+      "id": "link_11",
       "source": "node_9",
       "target": "node_12",
       "type": "contains"
     },
     {
+      "id": "link_12",
       "source": "node_12",
       "target": "node_13",
       "type": "contains"
     },
     {
+      "id": "link_13",
       "source": "node_7",
       "target": "node_14",
       "type": "contains"
     },
     {
+      "id": "link_14",
       "source": "node_14",
       "target": "node_15",
       "type": "contains"
     },
     {
+      "id": "link_15",
       "source": "node_15",
       "target": "node_16",
       "type": "contains"
     },
     {
+      "id": "link_16",
       "source": "node_16",
       "target": "node_17",
       "type": "contains"
     },
     {
+      "id": "link_17",
       "source": "node_15",
       "target": "node_18",
       "type": "contains"
     },
     {
+      "id": "link_18",
       "source": "node_18",
       "target": "node_19",
       "type": "contains"
     },
     {
+      "id": "link_19",
       "source": "node_15",
       "target": "node_20",
       "type": "contains"
     },
     {
+      "id": "link_20",
       "source": "node_20",
       "target": "node_21",
       "type": "contains"
     },
     {
+      "id": "link_21",
       "source": "node_15",
       "target": "node_22",
       "type": "contains"
     },
     {
+      "id": "link_22",
       "source": "node_22",
       "target": "node_23",
       "type": "contains"
